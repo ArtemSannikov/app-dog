@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Charset -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Породы собак</title>
+	<!-- Include meta tag to ensure proper rendering and touch zooming-->
+	<meta name="view-port" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/themes/my-theme.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/my-style.css" />
+	<!-- Include the jQuery Mobile library -->
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<!-- Include the jQuery Mobile library -->
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Open sidebar (left panel) on swipe -->
+	<script type="text/javascript" src="js/swipe-panel.js"></script>
+	<!-- AdMob-->
+	<script type="text/javascript" src="js/admob.js"></script>
+	<!-- cordova js -->
+	<script src="cordova.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="home" data-theme="a">
+
+	<div data-role="header" data-position="fixed" data-position="inline">
+
+		<a href="#left-panel" data-role="button" data-icon="bars" data-iconpos="notext" data-shadow="false" data-transition="none" data-ajax="true" data-iconpos="right" class="ui-nodisc-icon transparentButton" style="margin-top: 2px;">Меню</a>
+
+		<h1>Породы собак</h1>
+
+	</div>
+
+	<!-- Выезжающая панель слева -->
+	<div data-role="panel" id="left-panel" data-display="overlay" data-position="left" data-position-fixed="true">
+
+		<ul data-role="listview">
+
+			<li data-icon="delete" class=""><a data-rel="close">Закрыть панель</a></li>
+
+			<li data-icon="false">
+				<a href="content/main/about.html" data-ajax="false" data-transition="none">О приложении</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/main/contact.html" data-ajax="false" data-transition="none">Контактная информация</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="#PopupReviewApp" data-rel="popup" data-position-to="window" data-transition="none">Оставить отзыв</a>
+			</li>
+		</ul>	
+
+	</div>
+
+	<!-- Всплывающее окно: Оставить отзыв -->
+	<div data-role="popup" id="PopupReviewApp" data-overlay-theme="a" data-theme="a" data-dismissible="false">
+
+		<div data-role="header" data-theme="a">
+			<h1>Редирект</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h3 class="ui-title">Переход на Play Market</h3>
+			<p>Сейчас вы будете перенаправлены на страницу приложения в Play Market, где сможете оставить отзыв о приложении.</p>
+			<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Отмена</a>
+			<a href="https://play.google.com/store/apps/details?id=ru.dog" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" rel="external" data-transition="none">Перейти</a>
+		</div>
+
+	</div>
+
+	<!-- Контент -->
+	<div data-role="main" class="ui-content">
+
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Какую породу ищем?">
+
+			<li data-icon="false">
+				<a href="content/dog/dog-1.html" data-transition="none" data-ajax="false">
+					<h2>Австралийская борзая (кенгуровая собака)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-2.html" data-transition="none" data-ajax="false">
+					<h2>Австралийская овчарка (Аусси)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-3.html" data-transition="none" data-ajax="false">
+					<h2>Австралийская пастушья собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-4.html" data-transition="none" data-ajax="false">
+					<h2>Австралийская короткохвостая пастушья собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-5.html" data-transition="none" data-ajax="false">
+					<h2>Австралийский бандог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-6.html" data-transition="none" data-ajax="false">
+					<h2>Австралийский бульдог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-7.html" data-transition="none" data-ajax="false">
+					<h2>Австралийский динго</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-8.html" data-transition="none" data-ajax="false">
+					<h2>Австралийский келпи</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-9.html" data-transition="none" data-ajax="false">
+					<h2>Австралийский шелковистый терьер (силки терьер)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-10.html" data-transition="none" data-ajax="false">
+					<h2>Австрийская гончая (брандл бракк)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-11.html" data-transition="none" data-ajax="false">
+					<h2>Австрийский  пинчер (Австрийский короткошерстный пинчер)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-12.html" data-transition="none" data-ajax="false">
+					<h2>Азавак (Африканская борзая)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-13.html" data-transition="none" data-ajax="false">
+					<h2>Айну (хоккайдская собака)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-14.html" data-transition="none" data-ajax="false">
+					<h2>Акбаш</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-15.html" data-transition="none" data-ajax="false">
+					<h2>Акита-ину</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-16.html" data-transition="none" data-ajax="false">
+					<h2>Алано (Испанский алано)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-17.html" data-transition="none" data-ajax="false">
+					<h2>Алапахский бульдог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-18.html" data-transition="none" data-ajax="false">
+					<h2>Алопекис</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-19.html" data-transition="none" data-ajax="false">
+					<h2>Альпийская овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-20.html" data-transition="none" data-ajax="false">
+					<h2>Альпийский таксообразный бракк</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-21.html" data-transition="none" data-ajax="false">
+					<h2>Аляскинский Кли Кэй</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-22.html" data-transition="none" data-ajax="false">
+					<h2>Аляскинский маламут</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-23.html" data-transition="none" data-ajax="false">
+					<h2>Американская акита</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-24.html" data-transition="none" data-ajax="false">
+					<h2>Американская белая овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-25.html" data-transition="none" data-ajax="false">
+					<h2>Американская тундровая овчарка (Американская тундровая собака)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-26.html" data-transition="none" data-ajax="false">
+					<h2>Американский бандог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-27.html" data-transition="none" data-ajax="false">
+					<h2>Американский бульдог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-28.html" data-transition="none" data-ajax="false">
+					<h2>Американский кокер-спаниель</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-29.html" data-transition="none" data-ajax="false">
+					<h2>Американский питбультерьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-30.html" data-transition="none" data-ajax="false">
+					<h2>Американский стаффордшир-терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-31.html" data-transition="none" data-ajax="false">
+					<h2>Американский той-фокстерьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-32.html" data-transition="none" data-ajax="false">
+					<h2>Американская эскимосская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-33.html" data-transition="none" data-ajax="false">
+					<h2>Английская овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-34.html" data-transition="none" data-ajax="false">
+					<h2></h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-35.html" data-transition="none" data-ajax="false">
+					<h2>Английский бульдог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-36.html" data-transition="none" data-ajax="false">
+					<h2>Английский кокер-спаниель</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-37.html" data-transition="none" data-ajax="false">
+					<h2>Английский мастиф</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-38.html" data-transition="none" data-ajax="false">
+					<h2>Английский сеттер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-39.html" data-transition="none" data-ajax="false">
+					<h2>Английский той-терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-40.html" data-transition="none" data-ajax="false">
+					<h2>Аппенцеллер Зенненхунд</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-41.html" data-transition="none" data-ajax="false">
+					<h2>Аргентинский дог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-42.html" data-transition="none" data-ajax="false">
+					<h2>Арубская деревенская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-43.html" data-transition="none" data-ajax="false">
+					<h2>Атласская овчарка (Аиди)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-44.html" data-transition="none" data-ajax="false">
+					<h2>Афганская борзая</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-45.html" data-transition="none" data-ajax="false">
+					<h2>Аффенпинчер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-46.html" data-transition="none" data-ajax="false">
+					<h2>Басенджи</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-47.html" data-transition="none" data-ajax="false">
+					<h2>Бассет бретонский (рыжий бретонский бассет)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-48.html" data-transition="none" data-ajax="false">
+					<h2>Бассет-хаунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-49.html" data-transition="none" data-ajax="false">
+					<h2>Бедлингтон терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-50.html" data-transition="none" data-ajax="false">
+					<h2>Белая швейцарская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-51.html" data-transition="none" data-ajax="false">
+					<h2>Бельгийская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-52.html" data-transition="none" data-ajax="false">
+					<h2>Бернский зенненхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-53.html" data-transition="none" data-ajax="false">
+					<h2>Бигль</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-54.html" data-transition="none" data-ajax="false">
+					<h2>Бишон фризе</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-55.html" data-transition="none" data-ajax="false">
+					<h2>Бладхаунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-56.html" data-transition="none" data-ajax="false">
+					<h2>Бобтейл</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-57.html" data-transition="none" data-ajax="false">
+					<h2>Боксер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-58.html" data-transition="none" data-ajax="false">
+					<h2>Болгарская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-59.html" data-transition="none" data-ajax="false">
+					<h2>Болоньез</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-60.html" data-transition="none" data-ajax="false">
+					<h2>Большой швейцарский зенненхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-61.html" data-transition="none" data-ajax="false">
+					<h2>Бордер колли</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-62.html" data-transition="none" data-ajax="false">
+					<h2>Бордоский дог (Французский мастиф)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-63.html" data-transition="none" data-ajax="false">
+					<h2>Бостон терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-64.html" data-transition="none" data-ajax="false">
+					<h2>Бразильский терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-65.html" data-transition="none" data-ajax="false">
+					<h2>Бриар</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-66.html" data-transition="none" data-ajax="false">
+					<h2>Бульмастиф</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-67.html" data-transition="none" data-ajax="false">
+					<h2>Бультерьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-68.html" data-transition="none" data-ajax="false">
+					<h2>Бультерьер миниатюрный</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-69.html" data-transition="none" data-ajax="false">
+					<h2>Бурбуль</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-70.html" data-transition="none" data-ajax="false">
+					<h2>Веймаранер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-71.html" data-transition="none" data-ajax="false">
+					<h2>Вельш корги</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-72.html" data-transition="none" data-ajax="false">
+					<h2>Вельштерьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-73.html" data-transition="none" data-ajax="false">
+					<h2>Венгерская короткошерстная легавая</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-74.html" data-transition="none" data-ajax="false">
+					<h2>Вест терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-75.html" data-transition="none" data-ajax="false">
+					<h2>Волкодав ирландский</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-76.html" data-transition="none" data-ajax="false">
+					<h2>Восточноевропейская овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-77.html" data-transition="none" data-ajax="false">
+					<h2>Гампр</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-78.html" data-transition="none" data-ajax="false">
+					<h2>Голая мексиканская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-79.html" data-transition="none" data-ajax="false">
+					<h2>Голландская овчарка (Хердер)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-80.html" data-transition="none" data-ajax="false">
+					<h2>Гончая греческая (Греческая заячья гончая)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-81.html" data-transition="none" data-ajax="false">
+					<h2>Гончая малая (англо-французская)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-82.html" data-transition="none" data-ajax="false">
+					<h2>Гончая плотта</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-83.html" data-transition="none" data-ajax="false">
+					<h2>Гончая Стефена</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-84.html" data-transition="none" data-ajax="false">
+					<h2>Гончая тирольская</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-85.html" data-transition="none" data-ajax="false">
+					<h2>Гончая Шиллера</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-86.html" data-transition="none" data-ajax="false">
+					<h2>Грейхаунд</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-87.html" data-transition="none" data-ajax="false">
+					<h2>Греческая овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-88.html" data-transition="none" data-ajax="false">
+					<h2>Гренландская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-89.html" data-transition="none" data-ajax="false">
+					<h2>Гриффон</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-90.html" data-transition="none" data-ajax="false">
+					<h2>Грюнендаль</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-91.html" data-transition="none" data-ajax="false">
+					<h2>Далматин</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-92.html" data-transition="none" data-ajax="false">
+					<h2>Датский дог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-93.html" data-transition="none" data-ajax="false">
+					<h2>Двортерьер (дворняжки, метисы)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-94.html" data-transition="none" data-ajax="false">
+					<h2>Денди динмонд</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-95.html" data-transition="none" data-ajax="false">
+					<h2>Джек Рассел терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-96.html" data-transition="none" data-ajax="false">
+					<h2>Дизайнерские собаки</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-97.html" data-transition="none" data-ajax="false">
+					<h2>Доберман-пинчер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-98.html" data-transition="none" data-ajax="false">
+					<h2>Дрентская куропаточная собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-99.html" data-transition="none" data-ajax="false">
+					<h2>Золотистый ретривер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-100.html" data-transition="none" data-ajax="false">
+					<h2>Ирландский сеттер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-101.html" data-transition="none" data-ajax="false">
+					<h2>Ирландский глен-оф-имаал-терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-102.html" data-transition="none" data-ajax="false">
+					<h2>Йоркширский терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-103.html" data-transition="none" data-ajax="false">
+					<h2>Ка-де-бо</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-104.html" data-transition="none" data-ajax="false">
+					<h2>Кавалер кинг чарльз спаниель</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-105.html" data-transition="none" data-ajax="false">
+					<h2>Кавказская овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-106.html" data-transition="none" data-ajax="false">
+					<h2>Канадская эскимосская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-107.html" data-transition="none" data-ajax="false">
+					<h2>Канарский дог</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-108.html" data-transition="none" data-ajax="false">
+					<h2>Кане корсо</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-109.html" data-transition="none" data-ajax="false">
+					<h2>Карабаш анатолийский</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-110.html" data-transition="none" data-ajax="false">
+					<h2>Карабаш кангальский</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-111.html" data-transition="none" data-ajax="false">
+					<h2>Карельская медвежья собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-112.html" data-transition="none" data-ajax="false">
+					<h2>Карликовый пинчер (цвергпинчер)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-113.html" data-transition="none" data-ajax="false">
+					<h2>Карская собака</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-114.html" data-transition="none" data-ajax="false">
+					<h2>Кеесхонд</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-115.html" data-transition="none" data-ajax="false">
+					<h2>Керн терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-116.html" data-transition="none" data-ajax="false">
+					<h2>Керри-блю-терьер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-117.html" data-transition="none" data-ajax="false">
+					<h2>Китайская хохлатая собачка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-118.html" data-transition="none" data-ajax="false">
+					<h2>Кламбер-спаниель</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-119.html" data-transition="none" data-ajax="false">
+					<h2>Колли</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-120.html" data-transition="none" data-ajax="false">
+					<h2>Крашская овчарка</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-121.html" data-transition="none" data-ajax="false">
+					<h2>Комондор</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-122.html" data-transition="none" data-ajax="false">
+					<h2>Кpапчато-голубой кунхаунд (енотовая гончая)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-123.html" data-transition="none" data-ajax="false">
+					<h2>Ксолоитцкуинтли (мексиканская голая собака)</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-124.html" data-transition="none" data-ajax="false">
+					<h2>Кувас</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-125.html" data-transition="none" data-ajax="false">
+					<h2>Курцхаар</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-126.html" data-transition="none" data-ajax="false">
+					<h2>Курчавошерстный ретривер</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-127.html" data-transition="none" data-ajax="false">
+					<h2>Кыргызская борзая</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-128.html" data-transition="none" data-ajax="false">
+					<h2>Лабрадор-ретривер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-129.html" data-transition="none" data-ajax="false">
+					<h2>Лайка западно-сибирская</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-130.html" data-transition="none" data-ajax="false">
+					<h2>Лайка камчатская ездовая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-131.html" data-transition="none" data-ajax="false">
+					<h2>Лайка ненецкая оленегонная</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-132.html" data-transition="none" data-ajax="false">
+					<h2>Лайка самоедская</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-133.html" data-transition="none" data-ajax="false">
+					<h2>Лайка финская оленегонная</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-134.html" data-transition="none" data-ajax="false">
+					<h2>Лайка чукотская ездовая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-135.html" data-transition="none" data-ajax="false">
+					<h2>Лайка эскимосская</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-136.html" data-transition="none" data-ajax="false">
+					<h2>Лайка якутская</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-137.html" data-transition="none" data-ajax="false">
+					<h2>Лакенуа</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-138.html" data-transition="none" data-ajax="false">
+					<h2>Ландсир</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-139.html" data-transition="none" data-ajax="false">
+					<h2>Лапландская пастушья собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-140.html" data-transition="none" data-ajax="false">
+					<h2>Левретка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-141.html" data-transition="none" data-ajax="false">
+					<h2>Леонбергер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-142.html" data-transition="none" data-ajax="false">
+					<h2>Литовская гончая (латвийская гончая)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-143.html" data-transition="none" data-ajax="false">
+					<h2>Лопарская оленегонная собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-144.html" data-transition="none" data-ajax="false">
+					<h2>Лукас терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-145.html" data-transition="none" data-ajax="false">
+					<h2>Лхасский апсо</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-146.html" data-transition="none" data-ajax="false">
+					<h2>Люцернская гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-147.html" data-transition="none" data-ajax="false">
+					<h2>Малая греческая домашняя собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-148.html" data-transition="none" data-ajax="false">
+					<h2>Малинуа</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-149.html" data-transition="none" data-ajax="false">
+					<h2>Мальтезе (Мальтийская болонка)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-150.html" data-transition="none" data-ajax="false">
+					<h2>Мареммано-абруццкая овчарка (мареммано абруццеле)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-151.html" data-transition="none" data-ajax="false">
+					<h2>Мастино наполетано (Неаполетанский мастиф)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-152.html" data-transition="none" data-ajax="false">
+					<h2>Миттельшнауцер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-153.html" data-transition="none" data-ajax="false">
+					<h2>Монгольская овчарка (банхар)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-154.html" data-transition="none" data-ajax="false">
+					<h2>Мопс</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-155.html" data-transition="none" data-ajax="false">
+					<h2>Московская сторожевая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-156.html" data-transition="none" data-ajax="false">
+					<h2>Московский дракон</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-157.html" data-transition="none" data-ajax="false">
+					<h2>Немецкий дог (Датский дог)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-158.html" data-transition="none" data-ajax="false">
+					<h2>Немецкая овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-159.html" data-transition="none" data-ajax="false">
+					<h2>Немецкий дратхаар (жесткошерстная легавая)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-160.html" data-transition="none" data-ajax="false">
+					<h2>Пинчер немецкий</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-161.html" data-transition="none" data-ajax="false">
+					<h2>Новогвинейская поющая собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-162.html" data-transition="none" data-ajax="false">
+					<h2>Норботтен-шпиц (Скандинавская лайка)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-163.html" data-transition="none" data-ajax="false">
+					<h2>Норвежский эльгхунд серый</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-164.html" data-transition="none" data-ajax="false">
+					<h2>Норвежский эльгхунд чёрный</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-165.html" data-transition="none" data-ajax="false">
+					<h2>Норвич терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-166.html" data-transition="none" data-ajax="false">
+					<h2>Норфолк терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-167.html" data-transition="none" data-ajax="false">
+					<h2>Ньюфаундленд</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-168.html" data-transition="none" data-ajax="false">
+					<h2>Орхидея петербургская</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-169.html" data-transition="none" data-ajax="false">
+					<h2>Папильон</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-170.html" data-transition="none" data-ajax="false">
+					<h2>Парсон рассел терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-171.html" data-transition="none" data-ajax="false">
+					<h2>Пекинес</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-172.html" data-transition="none" data-ajax="false">
+					<h2>Перуанская голая собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-173.html" data-transition="none" data-ajax="false">
+					<h2>Пинчеры</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-174.html" data-transition="none" data-ajax="false">
+					<h2>Пиренейская горная собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-175.html" data-transition="none" data-ajax="false">
+					<h2>Пиренейский мастиф</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-176.html" data-transition="none" data-ajax="false">
+					<h2>Поденгу португезе</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-177.html" data-transition="none" data-ajax="false">
+					<h2>Подгалянская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-178.html" data-transition="none" data-ajax="false">
+					<h2>Пойнтер английский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-179.html" data-transition="none" data-ajax="false">
+					<h2>Пойнтер Герта</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-180.html" data-transition="none" data-ajax="false">
+					<h2>Пойнтер немецкий</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-181.html" data-transition="none" data-ajax="false">
+					<h2>Пойнтер пудель (Пудель-пойнтер)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-182.html" data-transition="none" data-ajax="false">
+					<h2>Пойнтер старо-датский (старо-датская легавая)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-183.html" data-transition="none" data-ajax="false">
+					<h2>Польская гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-184.html" data-transition="none" data-ajax="false">
+					<h2>Польская низинная овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-185.html" data-transition="none" data-ajax="false">
+					<h2>Португальская водяная собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-186.html" data-transition="none" data-ajax="false">
+					<h2>Португальская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-187.html" data-transition="none" data-ajax="false">
+					<h2>Португальский рафейру</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-188.html" data-transition="none" data-ajax="false">
+					<h2>Пражский крысарик</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-189.html" data-transition="none" data-ajax="false">
+					<h2>Пти-брабансон</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-190.html" data-transition="none" data-ajax="false">
+					<h2>Пудель</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-191.html" data-transition="none" data-ajax="false">
+					<h2>Пули</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-192.html" data-transition="none" data-ajax="false">
+					<h2>Перро де преса канарио (Канарская собака)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-193.html" data-transition="none" data-ajax="false">
+					<h2>Риджбек родезийский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-194.html" data-transition="none" data-ajax="false">
+					<h2>Риджбек тайский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-195.html" data-transition="none" data-ajax="false">
+					<h2>Ризеншнауцер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-196.html" data-transition="none" data-ajax="false">
+					<h2>Ротвейлер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-197.html" data-transition="none" data-ajax="false">
+					<h2>Русская гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-198.html" data-transition="none" data-ajax="false">
+					<h2>Русская псовая борзая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-199.html" data-transition="none" data-ajax="false">
+					<h2>Русская салонная собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-200.html" data-transition="none" data-ajax="false">
+					<h2>Русский спаниель</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-201.html" data-transition="none" data-ajax="false">
+					<h2>Русская цветная болонка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-202.html" data-transition="none" data-ajax="false">
+					<h2>Русский длинношерстный той терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-203.html" data-transition="none" data-ajax="false">
+					<h2>Русский той терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-204.html" data-transition="none" data-ajax="false">
+					<h2>Русский черный терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-205.html" data-transition="none" data-ajax="false">
+					<h2>Салюки</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-206.html" data-transition="none" data-ajax="false">
+					<h2>Сарлосская волчья собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-207.html" data-transition="none" data-ajax="false">
+					<h2>Сенбернар</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-208.html" data-transition="none" data-ajax="false">
+					<h2>Силихем-терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-209.html" data-transition="none" data-ajax="false">
+					<h2>Сицилийская борзая (Чирнеко дель этна)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-210.html" data-transition="none" data-ajax="false">
+					<h2>Сиба Ину</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-211.html" data-transition="none" data-ajax="false">
+					<h2>Скай-терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-212.html" data-transition="none" data-ajax="false">
+					<h2>Скотч-терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-213.html" data-transition="none" data-ajax="false">
+					<h2>Словацкий чувач</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-214.html" data-transition="none" data-ajax="false">
+					<h2>Слюги</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-215.html" data-transition="none" data-ajax="false">
+					<h2>Среднеазиатская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-216.html" data-transition="none" data-ajax="false">
+					<h2>Стаффордширский бультерьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-217.html" data-transition="none" data-ajax="false">
+					<h2>Суссекс-спаниель</h2>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="content/dog/dog-218.html" data-transition="none" data-ajax="false">
+					<h2>Тазы (Среднеазиатская борзая)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-219.html" data-transition="none" data-ajax="false">
+					<h2>Тайский риджбек</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-220.html" data-transition="none" data-ajax="false">
+					<h2>Такса</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-221.html" data-transition="none" data-ajax="false">
+					<h2>Тамасканская собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-222.html" data-transition="none" data-ajax="false">
+					<h2>Тервюрен</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-223.html" data-transition="none" data-ajax="false">
+					<h2>Терьер пшеничный</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-224.html" data-transition="none" data-ajax="false">
+					<h2>Тибетский терьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-225.html" data-transition="none" data-ajax="false">
+					<h2>Тоса-ину</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-226.html" data-transition="none" data-ajax="false">
+					<h2>Уиппет</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-227.html" data-transition="none" data-ajax="false">
+					<h2>Утонаган</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-228.html" data-transition="none" data-ajax="false">
+					<h2>Фараонова собка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-229.html" data-transition="none" data-ajax="false">
+					<h2>Фила бразилейро</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-230.html" data-transition="none" data-ajax="false">
+					<h2>Финская оленегонная лайка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-231.html" data-transition="none" data-ajax="false">
+					<h2>Финско-шведская оленегонная собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-232.html" data-transition="none" data-ajax="false">
+					<h2>Фландрский бувье</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-233.html" data-transition="none" data-ajax="false">
+					<h2>Фокстерьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-234.html" data-transition="none" data-ajax="false">
+					<h2>Фоксхаунд английский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-235.html" data-transition="none" data-ajax="false">
+					<h2>Французская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-236.html" data-transition="none" data-ajax="false">
+					<h2>Французский бульдог</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-237.html" data-transition="none" data-ajax="false">
+					<h2>Ханаанская собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-238.html" data-transition="none" data-ajax="false">
+					<h2>Хаски аляскинский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-239.html" data-transition="none" data-ajax="false">
+					<h2>Хаски лабрадорский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-240.html" data-transition="none" data-ajax="false">
+					<h2>Хаски сахалинский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-241.html" data-transition="none" data-ajax="false">
+					<h2>Хаски сибирский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-242.html" data-transition="none" data-ajax="false">
+					<h2>Ховаварт</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-243.html" data-transition="none" data-ajax="false">
+					<h2>Хорватская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-244.html" data-transition="none" data-ajax="false">
+					<h2>Хорватская планинская собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-245.html" data-transition="none" data-ajax="false">
+					<h2>Хортая борзая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-246.html" data-transition="none" data-ajax="false">
+					<h2>Цвергшнауцер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-247.html" data-transition="none" data-ajax="false">
+					<h2>Цвергпинчер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-248.html" data-transition="none" data-ajax="false">
+					<h2>Чау-чау</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-249.html" data-transition="none" data-ajax="false">
+					<h2>Чесапик бей ретривер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-250.html" data-transition="none" data-ajax="false">
+					<h2>Чехословацкая волчья собака</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-251.html" data-transition="none" data-ajax="false">
+					<h2>Чинук</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-252.html" data-transition="none" data-ajax="false">
+					<h2>Чихуахуа</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-253.html" data-transition="none" data-ajax="false">
+					<h2>Шар-пей</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-254.html" data-transition="none" data-ajax="false">
+					<h2>Шарпланинац</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-255.html" data-transition="none" data-ajax="false">
+					<h2>Шведский вальхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-256.html" data-transition="none" data-ajax="false">
+					<h2>Шведский лапхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-257.html" data-transition="none" data-ajax="false">
+					<h2>Шведский элькхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-258.html" data-transition="none" data-ajax="false">
+					<h2>Швейцарская юрская гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-259.html" data-transition="none" data-ajax="false">
+					<h2>Шелти</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-260.html" data-transition="none" data-ajax="false">
+					<h2>Ши-тцу</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-261.html" data-transition="none" data-ajax="false">
+					<h2>Шиба-Ину</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-262.html" data-transition="none" data-ajax="false">
+					<h2>Шилонская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-263.html" data-transition="none" data-ajax="false">
+					<h2>Шипперке</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-264.html" data-transition="none" data-ajax="false">
+					<h2>Шотландский сеттер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-265.html" data-transition="none" data-ajax="false">
+					<h2>Шпиц карликовый (померанский)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-266.html" data-transition="none" data-ajax="false">
+					<h2>Шпиц малый (немецкий)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-267.html" data-transition="none" data-ajax="false">
+					<h2>Шпиц финский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-268.html" data-transition="none" data-ajax="false">
+					<h2>Шпиц шведский (лапхунд) — Лапдандские собаки</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-269.html" data-transition="none" data-ajax="false">
+					<h2>Шпиц японский</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-270.html" data-transition="none" data-ajax="false">
+					<h2>Энтлебухер зенненхунд</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-271.html" data-transition="none" data-ajax="false">
+					<h2>Эрдельтерьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-272.html" data-transition="none" data-ajax="false">
+					<h2>Эстонская гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-273.html" data-transition="none" data-ajax="false">
+					<h2>Эштрельская гладкошерстная овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-274.html" data-transition="none" data-ajax="false">
+					<h2>Эштрельская длинношерстная овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-275.html" data-transition="none" data-ajax="false">
+					<h2>Югославская горная гончая (Планинская гончая)</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-276.html" data-transition="none" data-ajax="false">
+					<h2>Югославская трехцветная гончая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-277.html" data-transition="none" data-ajax="false">
+					<h2>Южнорусская овчарка</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-278.html" data-transition="none" data-ajax="false">
+					<h2>Южнорусская степная борзая</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-279.html" data-transition="none" data-ajax="false">
+					<h2>Ягдтерьер</h2>
+				</a>
+			</li>
+			
+			<li data-icon="false">
+				<a href="content/dog/dog-280.html" data-transition="none" data-ajax="false">
+					<h2>Японский хин</h2>
+				</a>
+			</li>
+
+		</ul>
+
+	</div>
+
+</div>
+
+</body>
+</html>
